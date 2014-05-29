@@ -30,6 +30,8 @@ group :test, :development do
   gem 'rspec-rails'
 end
 
+gem 'nokogiri'
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
