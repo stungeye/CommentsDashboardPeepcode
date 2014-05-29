@@ -27,8 +27,12 @@ gem 'sdoc', '~> 0.4.0',          group: :doc
 gem 'spring',        group: :development
 
 group :test, :development do
-  gem 'rspec-rails'
+  gem 'rspec-rails', '>= 3.0.0.beta2'
+  gem 'rspec', '>= 3.0.0.beta2'
+  gem 'capybara'
+  gem 'guard-rspec', '~> 4.2.9'
 end
+
 
 gem 'nokogiri'
 
